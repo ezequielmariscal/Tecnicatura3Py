@@ -8,13 +8,20 @@ conexion = psycopg2.connect(  # Creamos objeto Tipo conexion para hacer la conex
     port='5432',
     database='test_bd'
 )
+try:
+    with conexion:
+        with conexion.cursor() as cursor:  # Definimos la sentenciacursor.execute(sentencia)
+            sentencia = 'SELECT * FROM persona WHERE id_persona = %s'  # Placeholder
+            id_persona = input('Digite un numero para el id_persona: ')
+            cursor.execute(sentencia, (id_persona,))  # De esta manera ejecutamos la sentencia
+            registros = cursor.fetchone()  # fetchall= recupera todas las sentencias de registro que seria una list
+            print(registros)
+except Exception as e:
+    print(f'Ocurrio un error: {e}')
+finally:
+   conexion.close()
 
-cursor = conexion.cursor()
-sentencia = 'SELECT * FROM persona'  # Definimos la sentencia
-cursor.execute(sentencia)  # De esta manera ejecutamos la sentencia
-registros = cursor.fetchall()  # fetchall= recupera todas las sentencias de registro que seria una list
-print(registros)
 
-cursor.close()
-conexion.close()
+# https://www.psycopg.org/docs/usage.html siempre que abrimos una conexion a una base de datos debemos enbolberlo
+# en la base de datos xq siempre que se habre hay q finalizarlo
 
