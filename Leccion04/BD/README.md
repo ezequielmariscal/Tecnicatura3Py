@@ -34,6 +34,8 @@
 
 ### Es importante tener en cuenta que tanto fetchone() como fetchall() deben usarse después de ejecutar una consulta con execute().
 
+## Transaccion : Es cuando queremos ejecutar varias consultas sobre lo que es la bd.
+### estas consultas van a modificar el estado de la bd ,por ej: colocar un INSERT, UPDATE, DELETE. Todos estos query deben ejecutarse exitosamente, si resulta asi lo commiteamos. si alguno falla debemoes realizar un rollback (dar marcha atras)
 for fila in filas:
     print(fila)
 
