@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="b9coPdaEQEm2zd7JOcy0" name="Página-1">
+        <mxGraphModel dx="905" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Tarea: Crear UML" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="50" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; font-weight: 400; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Responsabilidades%3A%26lt%3Bbr%26gt%3BAdministrar%20la%20conexi%C3%B3n%20a%20la%20base%20de%26amp%3Bnbsp%3B%26lt%3Bbr%26gt%3Bdatos.%22%20style%3D%22html%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22100%22%20y%3D%22410%22%20width%3D%22210%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=20;tabPosition=left;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="110" width="770" height="750" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="conexion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="200" width="210" height="210" as="geometry">
+                        <mxRectangle x="100" y="200" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="-DATABASE: String&#10;-USERNAME: String&#10;-PASSWORD: String&#10;-DB PORT: String&#10;-HOST: String&#10;-conexion: connectiion&#10;-cursor: Cursor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="4">
+                    <mxGeometry y="26" width="210" height="104" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4">
+                    <mxGeometry y="130" width="210" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="+obtenerConexion(cls): Connection&#10;+obtenerCursor(cls): Cursor&#10;+cerrar(cls)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="4">
+                    <mxGeometry y="150" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+obtenerConexion(cls): Connection&#10;+obtenerCursor(cls): Cursor&#10;+cerrar(cls)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="1">
+                    <mxGeometry x="100" y="350" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Responsabilidades:&lt;br&gt;Administrar la conexión a la base de&amp;nbsp;&lt;br&gt;datos." style="html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="410" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Persona" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="200" width="210" height="150" as="geometry">
+                        <mxRectangle x="100" y="200" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="-id_persona: int&#10;-nombre: String&#10;-apellido: String&#10;-email: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="17">
+                    <mxGeometry y="26" width="210" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="17">
+                    <mxGeometry y="90" width="210" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="+_str_(): String&#10;+metodo Get/Set  de cada atributo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="17">
+                    <mxGeometry y="110" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Responsabilidades:&lt;br&gt;Crear objetos de la entidad Persona" style="html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="350" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="PersonaDAO" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="570" width="210" height="180" as="geometry">
+                        <mxRectangle x="100" y="200" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="-SELECCIONAR: String&#10;-INSERTAR: String&#10;-ACTUALIZAR: String&#10;-ELIMINAR: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="22">
+                    <mxGeometry y="26" width="210" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="22">
+                    <mxGeometry y="90" width="210" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="+seleccionar(cls)&#10;+insertar(cls, persona)&#10;+actualizar(cls, persona)&#10;+eliminar(cls, persona)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="22">
+                    <mxGeometry y="110" width="210" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Responsabilidades:&lt;br&gt;Realizar las operaciones sobre la base&lt;br&gt;de datos de la entidad Persona" style="html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="750" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="25">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="205" y="470" as="sourcePoint"/>
+                        <mxPoint x="480" y="715" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="205" y="715"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="22">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="380" y="640" as="sourcePoint"/>
+                        <mxPoint x="540" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
