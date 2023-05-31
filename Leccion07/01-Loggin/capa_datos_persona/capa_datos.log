@@ -57,3 +57,8 @@
             Apellido: None,
             Email: None
         
+02:47:52 AM:DEBUG [conexion.py:22] Conexión Exitosa: <connection object at 0x0000027B72292790; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+02:49:27 AM:ERROR [conexion.py:25] Ocurrio un error: connection to server at "127.0.0.1", port 5432 failed: FATAL:  password authentication failed for user "postgre"
+
+02:50:38 AM:DEBUG [conexion.py:22] Conexión Exitosa: <connection object at 0x00000225A3952790; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+02:50:38 AM:ERROR [conexion.py:38] Ocurrio un error: 'NoneType' object has no attribute 'cursor'
