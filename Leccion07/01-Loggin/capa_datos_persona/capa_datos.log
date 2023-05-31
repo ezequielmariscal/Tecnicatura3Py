@@ -3,3 +3,57 @@
 06:57:05 PM:WARNING [logger_base.py:18] Mensaje a nivel warning
 06:57:05 PM:ERROR [logger_base.py:19] Mensaje a nivel error
 06:57:05 PM:CRITICAL [logger_base.py:20] Mensaje a nivel critical
+01:20:48 AM:DEBUG [Persona.py:48] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+01:23:06 AM:DEBUG [Persona.py:48] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+01:24:42 AM:DEBUG [Persona.py:48] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+01:24:42 AM:DEBUG [Persona.py:51] 
+            Id Persona: Jose,
+            Nombre: Lepez,
+            Apellido: ljose@mail.com,
+            Email: None
+        
+01:25:21 AM:DEBUG [Persona.py:48] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+01:25:21 AM:DEBUG [Persona.py:51] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: ljose@mail.com
+        
+01:26:29 AM:DEBUG [Persona.py:48] 
+            Id Persona: 1,
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@mail.com
+        
+01:26:29 AM:DEBUG [Persona.py:51] 
+            Id Persona: None,
+            Nombre: Jose,
+            Apellido: Lepez,
+            Email: ljose@mail.com
+        
+01:26:29 AM:DEBUG [Persona.py:53] 
+            Id Persona: 1,
+            Nombre: None,
+            Apellido: None,
+            Email: None
+        
