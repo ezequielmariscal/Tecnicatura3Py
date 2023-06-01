@@ -24,8 +24,8 @@ class Conexion:
             except Exception as e:
                 log.error(f'Ocurrio un error: {e}')
                 sys.exit()
-            else:
-                return cls._conexion
+        else:
+            return cls._conexion
 # En caso de error se termina el programa. si es diferente de NONE el objeto esta abierto
     @classmethod
     def obtenerCursor(cls):
@@ -37,8 +37,8 @@ class Conexion:
             except Exception as e:
                 log.error(f'Ocurrio un error: {e}')
                 sys.exit()
-            else:
-                return cls._cursor
+        else:
+            return cls._cursor
 
 # Hacemos ahora uan prueba de errores
 if __name__ == '__main__':
