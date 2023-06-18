@@ -1,6 +1,8 @@
 import psycopg2 as bd
 from logger_base import log
 import sys
+
+
 class Conexion:
     _DATABASE = 'test_bd'
     _USERNAME = 'postgres'
@@ -26,7 +28,8 @@ class Conexion:
                 sys.exit()
         else:
             return cls._conexion
-# En caso de error se termina el programa. si es diferente de NONE el objeto esta abierto
+
+    # En caso de error se termina el programa. si es diferente de NONE el objeto esta abierto
     @classmethod
     def obtenerCursor(cls):
         if cls._cursor is None:
@@ -39,6 +42,7 @@ class Conexion:
                 sys.exit()
         else:
             return cls._cursor
+
 
 # Hacemos ahora uan prueba de errores
 if __name__ == '__main__':
