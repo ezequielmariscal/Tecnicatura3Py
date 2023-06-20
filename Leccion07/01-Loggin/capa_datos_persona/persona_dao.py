@@ -60,9 +60,9 @@ class PersonaDAO:
 
 if __name__ == '__main__':
     # Eliminar un registro
-    persona1 = Persona(id_persona= 8)
-    personas_eliminadas = PersonaDAO.eliminar(persona1)
-    log.debug(f'Persona eliminada: {personas_eliminadas}')
+    # persona1 = Persona(id_persona= 8)
+    # personas_eliminadas = PersonaDAO.eliminar(persona1)
+    # log.debug(f'Persona eliminada: {personas_eliminadas}')
 
 
     # Actualizar un registro
@@ -74,6 +74,7 @@ if __name__ == '__main__':
     # persona1 = Persona(nombre='Homero', apellido='Ramos', email='homeror@mail.com')
     # personas_insertadas = PersonaDAO.insertar(persona1)
     # log.debug(f'Personas insertada: {personas_insertadas}')
+
     # Seleccionar objetos
     personas = PersonaDAO.seleccionar()
     for persona in personas:
