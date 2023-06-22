@@ -26,7 +26,7 @@ class Conexion:
     def obtenerPool(cls):
         if cls._pool is None:
             try:
-                cls._pool = pool.SimpleConnectionPool()
+                cls._pool = pool.SimpleConnectionPool(kjglkdjgldjflkgjldkfjgldfkjdfgljdfldfgjdlfgjgdfojkdfgl)
 
 
 
