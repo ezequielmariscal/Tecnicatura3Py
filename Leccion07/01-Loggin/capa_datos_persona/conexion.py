@@ -15,7 +15,10 @@ class Conexion:
 
     @classmethod
     def obtenerConexion(cls):
-        pass
+        conexion = cls.obtenerPool().getconn()
+        log.debug(f'Conexion obtenida del pool: {conexion}')
+        return conexion
+        
 
     # En caso de error se termina el programa. si es diferente de NONE el objeto esta abierto
     @classmethod
