@@ -44,6 +44,11 @@ class Conexion:
         else:
             return cls._pool
 
+    @classmethod
+    def liberaConexion(cls, conexion):
+        cls.obtenerPool().putconn(conexion )
+        log.debug(f'Regresamos la conexion del pool: {conexion}')
+
 
 
 # Hacemos ahora uan prueba de errores
