@@ -92,3 +92,7 @@
 
 12:05:49 AM:ERROR [conexion.py:42] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "bost"
 
+08:36:42 PM:ERROR [conexion.py:42] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "bost"
+
+08:50:48 PM:ERROR [conexion.py:42] Ocurrio un error al obtener el pool: invalid dsn: invalid connection option "bost"
+

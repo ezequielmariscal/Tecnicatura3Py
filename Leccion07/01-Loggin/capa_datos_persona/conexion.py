@@ -49,14 +49,21 @@ class Conexion:
         cls.obtenerPool().putconn(conexion )
         log.debug(f'Regresamos la conexion del pool: {conexion}')
 
+    @classmethod
+    def cerrarConexiones(cls):
+        cls.obtenerPool().closeall()
+
 
 
 # Hacemos ahora uan prueba de errores
+
 if __name__ == '__main__':
     conexion1 = Conexion.obtenerConexion()
+    Conexion.liberaConexion(conexion1)
     conexion2 = Conexion.obtenerConexion()
+    Conexion.liberaConexion(conexion2)
     conexion3 = Conexion.obtenerConexion()
-    conexion4 = Conexion.obtenerConexion()
+    Conexion.liberaConexion(conexion3)
     conexion5 = Conexion.obtenerConexion()
     conexion6 = Conexion.obtenerConexion()
 
