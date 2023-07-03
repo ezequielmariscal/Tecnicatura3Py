@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b8571d-cd05-4eed-a0d8-6d2f338a8360" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/capa_datos_persona/capa_datos.log" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/capa_datos.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capa_datos_persona/conexion.py" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/conexion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capa_datos_persona/persona_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/capa_datos_persona/persona_dao.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
