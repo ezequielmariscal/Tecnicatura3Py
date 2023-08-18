@@ -1,4 +1,4 @@
-from capa_datos_persona.cursor_del_pol import CursorDelPool
+from cursor_del_pol import CursorDelPool
 from logger_base import log
 from conexion import Conexion
 from persona import Persona

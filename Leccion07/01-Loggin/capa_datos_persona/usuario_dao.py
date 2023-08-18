@@ -1,4 +1,5 @@
-from capa_datos_persona.cursor_del_pol import CursorDelPool
+from Usuario import Usuario
+from cursor_del_pol import CursorDelPool
 from logger_base import log
 
 
@@ -36,7 +37,6 @@ class UsurioDAO:
             log.debug(f'Usuario a insertar: {usuario}')
             valores = (usuario.username, usuario.password)
             cursor.execute(cls._INSERTAR, valores)
-            log.debug(f'Persona Insertada: {persona}')
             return cursor.rowcount
 
     @classmethod
