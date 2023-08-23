@@ -3,7 +3,7 @@ from cursor_del_pol import CursorDelPool
 from logger_base import log
 
 
-class UsurioDAO:
+class UsuarioDAO:
     """
     DAO -> Data Access Object para la tabla de usuario
     CRUD -> Create - Read - Update - Delete
